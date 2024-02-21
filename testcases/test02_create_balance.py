@@ -1,11 +1,8 @@
 import allure
 import pytest
-
-from api.balance_list.balance import BalanceAPI
-from api.user_massage.login import LoginAPI
-from api.user_massage.user import UserAPI
-from common.RestClient import HttpClient
-from common.read_file import read_jsonfile, get_pwd_md5, write_yaml, read_yaml
+from api.balance.balance import BalanceAPI
+from api.user.login import UserAPI
+from common.read_file import read_yaml
 
 
 class TestCreateBalance:
@@ -14,11 +11,11 @@ class TestCreateBalance:
     @pytest.mark.parametrize("testdata", read_yaml('./data/single_create_balance.yml'))
     def test_login_success(self, testdata):
         with allure.step("1.用户登录"):  # 在页面添加步骤
-            LoginAPI().get_login_token(testdata["email"], testdata["password"])
+            UserAPI().get_login_token(testdata["email"], testdata["password"])
         with allure.step("2.查看账户资金列表"):
             BalanceAPI().get_balance_list()
         with allure.step("3.添加新币种账户"):
-            res = BalanceAPI().create_balance(testdata["currency"], testdata["name"])
+            res = BalanceAPI().balance_create(testdata["currency"], testdata["name"])
             assert res.json()["message"] == "The currency account has been added"
 
     #     url ="/api/v1/auth/signin"
