@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "test-",
+    "children" : [ {
+      "name" : "14436-MainThread",
+      "children" : [ {
+        "name" : "添加新币种账户",
+        "uid" : "15a694db44bbb93b",
+        "parentUid" : "4083ecb6643515fe57fc366c7a4b5d28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708488165701,
+          "stop" : 1708488169796,
+          "duration" : 4095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'email': '1442685214@qq.com', 'password': 'Qaz!1234', 'currency': 'USD', 'name': '123', 'validate': {'code': 200, 'message': 'Success'}}" ]
+      } ],
+      "uid" : "4083ecb6643515fe57fc366c7a4b5d28"
+    } ],
+    "uid" : "6f7a3a9d1fbd7b71e24fe85f57c8315a"
+  } ],
+  "name" : "timeline"
+}

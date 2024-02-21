@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "添加新币种账户",
+    "uid" : "15a694db44bbb93b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1708488165701,
+      "stop" : 1708488169796,
+      "duration" : 4095
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'email': '1442685214@qq.com', 'password': 'Qaz!1234', 'currency': 'USD', 'name': '123', 'validate': {'code': 200, 'message': 'Success'}}" ]
+  } ],
+  "name" : "behaviors"
+}

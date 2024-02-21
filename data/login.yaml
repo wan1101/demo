@@ -1,0 +1,41 @@
+- feature: 用户登录
+  title: 正确的账号密码登录
+  request:
+    method: post
+    url: "/api/v1/auth/signin"
+    headers: null
+    json:
+      email: "1442685214@qq.com"
+      password: "Qaz!1234"
+  validate:
+    code: 200
+    message: Success
+
+
+- feature: 用户登录
+  title: 账号为空，密码正确，登录失败
+  request:
+    method: post
+    url: "/api/v1/auth/signin"
+    headers: null
+    json:
+      email: "2685214@qq.com"
+      password: "Qaz!1234"
+  validate:
+      code: 1151
+      message: Signin email error
+
+
+- feature: 用户登录
+  title: 账号正确，密码为空，登录失败
+  request:
+    method: post
+    url: "/api/v1/auth/signin"
+    headers: null
+    json:
+      email: "1442685214@qq.com"
+      password: "Q!1234"
+  validate:
+    code: 1152
+    message: Signin password error
+

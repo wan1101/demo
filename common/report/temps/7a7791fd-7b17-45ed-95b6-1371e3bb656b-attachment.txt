@@ -1,0 +1,4 @@
+DEBUG    common.logging:logging.py:10 debug message: first to do .........
+DEBUG    common.logging:logging.py:19 run case:  test_answer
+INFO     common.logging:logging.py:20 test case --------
+INFO     common.logging:logging.py:14 function inc--------

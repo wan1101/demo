@@ -1,0 +1,153 @@
+{
+  "uid" : "15a694db44bbb93b",
+  "name" : "添加新币种账户",
+  "fullName" : "testcases.test02_single_create_balance.TestCreateBalance#test_login_success",
+  "historyId" : "c1fa1513bc734c742f65968facbb42e4",
+  "time" : {
+    "start" : 1708488165701,
+    "stop" : 1708488169796,
+    "duration" : 4095
+  },
+  "description" : "用户登录——查看列表——添加币种",
+  "descriptionHtml" : "<p>用户登录——查看列表——添加币种</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "connection_mysql",
+    "time" : {
+      "start" : 1708488165701,
+      "stop" : 1708488165701,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "用户登录——查看列表——添加币种",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1.用户登录",
+      "time" : {
+        "start" : 1708488165701,
+        "stop" : 1708488166903,
+        "duration" : 1202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "2.查看账户资金列表",
+      "time" : {
+        "start" : 1708488166903,
+        "stop" : 1708488167983,
+        "duration" : 1080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "3.添加新币种账户",
+      "time" : {
+        "start" : 1708488167983,
+        "stop" : 1708488169796,
+        "duration" : 1813
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4b59a87c9ae6a60a",
+      "name" : "log",
+      "source" : "4b59a87c9ae6a60a.txt",
+      "type" : "text/plain",
+      "size" : 133
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "connection_mysql::0",
+    "time" : {
+      "start" : 1708488169796,
+      "stop" : 1708488169796,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test02_single_create_balance"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateBalance"
+  }, {
+    "name" : "host",
+    "value" : "test-"
+  }, {
+    "name" : "thread",
+    "value" : "14436-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test02_single_create_balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "testdata",
+    "value" : "{'email': '1442685214@qq.com', 'password': 'Qaz!1234', 'currency': 'USD', 'name': '123', 'validate': {'code': 200, 'message': 'Success'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15a694db44bbb93b.json",
+  "parameterValues" : [ "{'email': '1442685214@qq.com', 'password': 'Qaz!1234', 'currency': 'USD', 'name': '123', 'validate': {'code': 200, 'message': 'Success'}}" ]
+}

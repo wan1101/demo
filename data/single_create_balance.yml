@@ -1,0 +1,7 @@
+- email: "1442685214@qq.com"
+  password: "Qaz!1234"
+  currency: "USD"
+  name: "123"
+  validate:
+    code: 200
+    message: Success

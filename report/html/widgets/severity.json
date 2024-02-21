@@ -1,0 +1,11 @@
+[ {
+  "uid" : "15a694db44bbb93b",
+  "name" : "添加新币种账户",
+  "time" : {
+    "start" : 1708488165701,
+    "stop" : 1708488169796,
+    "duration" : 4095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

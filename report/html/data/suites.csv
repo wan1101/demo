@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Feb 21 12:02:45 CST 2024","Wed Feb 21 12:02:49 CST 2024","4095","testcases","test02_single_create_balance","TestCreateBalance","","","添加新币种账户","用户登录——查看列表——添加币种"

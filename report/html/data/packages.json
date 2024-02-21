@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "testcases.test02_single_create_balance",
+    "children" : [ {
+      "name" : "添加新币种账户",
+      "uid" : "15a694db44bbb93b",
+      "parentUid" : "c955c62e1630c08fabc1f389272aeff0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708488165701,
+        "stop" : 1708488169796,
+        "duration" : 4095
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'email': '1442685214@qq.com', 'password': 'Qaz!1234', 'currency': 'USD', 'name': '123', 'validate': {'code': 200, 'message': 'Success'}}" ]
+    } ],
+    "uid" : "testcases.test02_single_create_balance"
+  } ],
+  "name" : "packages"
+}
